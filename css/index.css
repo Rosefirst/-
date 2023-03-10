@@ -1,0 +1,235 @@
+/* 定义样式的字体 */
+body{
+    /* 设置：Microsoft YaHei */
+    font-family: 'Microsoft YaHei',sans-serif;
+}
+.mai-icon{
+    background: rgb(64, 216, 180);
+    color: #fff;
+    border-radius:50%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-right:20px;
+}
+/* 设置整体导航栏的样式 */
+.navbar-default{
+    background-color: #fff;
+    border: none;   
+    box-shadow: 0px 1px 2px 0px rgba(50,50,50,.3);    
+}
+/* 设置logo的样式 */
+.navbar-default .navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+    height: 60px;
+    line-height: 30px;
+}
+
+/* 响应式的设置样式 */
+.navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    height: 60px;
+    line-height: 30px;
+}
+.navbar-default .navbar-toggle{
+    background-color: #ffffff;
+    border-color:#eee;
+}
+.navbar-toggle{
+    margin-top: 17px;
+}
+.navbar-default .navbar-toggle:hover{
+    border-color:#ffffff;
+    background-color: rgb(233, 224, 224)
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background: #000;     
+}
+
+/* 轮播图样式 */
+#set{       
+    width: 100%;
+    /* height:500px; */
+    background: url(../images/20150316112646344.jpg.source.jpg);
+    background-size: cover;
+    margin-top: 60px;   /* 这里根据导航栏的高度来进行设置，设置轮播图它的 */
+    text-align: center;
+    color: #ffffff;
+}
+.lvjing{
+    width:100%;
+    height: 100%;   
+    background: rgba(0, 0, 0,.7);
+    padding: 80px 0;
+}
+
+#set h1{
+    font-size: hold;    
+    margin-top: 0;
+    margin-bottom: 25px; 
+}
+#set p{
+    font-size: 400;
+    line-height: 35px;      
+}
+#set img{
+    margin-top: 30px;
+    display: inline-block;
+}
+
+/* bbs第二屏----论坛区域 */
+#bbs{
+    padding: 80px 0;
+    text-align: center;
+}
+
+/* 设置图标的效果 */
+#bbs .col-md-4{
+    padding: 15px;
+}
+#bbs .col-md-4:hover{
+    background: #f1f1f1;
+    box-shadow: 1px 1px 4px #ccc;
+}
+#bbs a{
+    color: #212121;
+    text-decoration: none;
+}
+#bbs img{
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+/* html5样式 */
+#html5{
+    padding: 80px 0;
+    background: #f8f8f8;
+}
+#html5 h2{
+    font-weight: bold;  
+}
+#html5 p{
+    line-height: 40px;
+}
+/* bootstrap区域样式 */
+#bootstrap{
+    padding: 80px 0;
+    background: #f8f8f8;
+}
+#bootstrap h2{
+    font-weight: bold;  
+}
+#bootstrap p{
+    line-height: 25px;
+}
+
+/* curose课程样式 */
+#course{
+    padding: 50px 0;
+    background: #f8f8f8;
+    text-align: center;
+}
+#course h2{
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+#course img{
+    display: block;
+    margin: 0 auto;
+}
+#course .course{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px #f1f1f1;
+    margin-bottom: 30px;
+}
+
+.course a.btn.btn-primary{
+    background: none;
+    border: 1px solid #3dc7b7;
+    color: #3dc7b7;
+    border-radius: 0;
+    margin: 20px 0 30px;
+    padding: 4px 30px;
+}
+.course a.btn.btn-primary:hover {
+    background: #3dc7d7;
+    color: #fff;
+}
+
+/* app样式 */
+#app{
+    padding: 50px 0;    
+    /* background: #f8f8f8; */
+    /* height: 500px; */
+}
+#app h2{
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+}
+#app p{
+    margin-bottom: 30px;
+}
+#app button.btn.btn-primary{
+    background-color:#3dc7b7;
+    border-color: #3dc7d7;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding: 8px 30px;
+    border-radius: 0;
+    transition: all .5s;
+}
+#app button.btn.btn-primary:hover{
+    color: #fff;
+    background: rgb(44, 142, 120);
+}
+
+
+
+
+/* contact样式 */
+#contact{
+    background:url('../images/contact-map.jpg');
+    background-size: cover; /* 此时会保持图像的纵横比并将图像缩放成将完全覆盖背景定位区域的最小大小。 */
+    color: #ffffff;
+    /* height: 500px; */
+}
+#contact h2{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#contact p{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+#contact .form-control{
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    margin-bottom: 20px;
+}
+#contact textarea.form-control{
+    height: auto;
+}
+#contact input[type="submit"]{
+    color: #fff;
+    background: #40D2B1;
+    font-weight: bold;
+}
+#contact input[type="submit"]:hover{
+    background:rgb(44, 142, 120);
+}
+
+/* 底部开发 */
+#footer{
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+}
